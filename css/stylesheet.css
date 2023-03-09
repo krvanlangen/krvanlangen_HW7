@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  h1 {
+    margin: 0; 
+    padding: 20px
+    font-size: 36px; 
+    font-weight: bold;
+    background-color: #008080; 
+    color: #FFFFFF; 
+    padding: 20px; 
+    text-align: center; 
+
+  }
+
+  img {
+    max-width: 100%; 
+    display: block; 
+    margin: auto; /
+    border: 5px solid #2B8282; 
+  }
+
+  button {
+    background-color: #2B8282;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+ 
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  input[type="text"] {
+    width: 50%; /* Set the width of the input element to 50% of its container */
+    margin-left: auto; /* Center the input element horizontally */
+    margin-right: auto; /* Center the input element horizontally */
+  }
+  
+  
+  
+ 
