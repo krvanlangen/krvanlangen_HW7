@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page 1</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+     <h1>Survey Page 1</h1> 
+
+     <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+            <label for="fname"> First name:
+                <input id="fname" type="text" autofocus required 
+                title="Please enter your first name">
+            </label>
+            </div>
+
+            <div>
+            <label for="lname"> Last name:
+                <input id="lname" type="text" required
+                title="Please enter your last name">
+            </label>
+            </div>
+
+            <div>
+            <label for="phone"> Phone number:
+                <input id="phone" type="text" placeholder="(123) 456 - 7890"
+                title="Please enter your phone number">
+            </label>
+            </div>
+
+            <label for="email"> Email address:
+                <input id="email" type="text" required
+                title="Please enter your email address">
+            </label>
+
+            <div>
+            <label for="spring-break"> 
+                Are you going anywhere for spring break?: 
+                <select name="spring-break" id="spring-break">
+                  <option value="" selected> Choose one ... </option>
+                  <option value="full-time"> Yes </option>
+                  <option value="part-time"> No </option>
+                  <option value="not-enrolled"> Not sure yet </option>
+                </select>     
+              </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+        <legend>Gender</legend>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female 
+        </label>
+    
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+        </label>
+        
+        <label for="nonbinary">
+        <input type="radio" id="nonbinary" name="gender" value="nonbinary">Non-binary
+        </label>  
+        
+        <label for="na">
+            <input type="radio" id="na" name="gender" value="na">Prefer not to answer
+            </label> 
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <legend> Race </legend>
+              <div>
+            <label for="AIAN">
+                <input type="checkbox" id="AIAN" name="Race" value ="AIAN"> American Indian or Alaska Native
+              </label>    
+            </div>
+
+               <div>
+            <label for="Asian">
+                <input type="checkbox" id="Asian" name="Race" value ="Asian"> Asian
+              </label>    
+            </div>
+
+               <div>
+            <label for="Black">
+                <input type="checkbox" id="Black" name="Race" value ="Black"> Black or African American
+              </label>    
+            </div>
+
+            <div>
+                <label for="NHOPI">
+                    <input type="checkbox" id="NHOPI" name="Race" value ="NHOPI"> Native Hawaiian or Other Pacific Islander
+                  </label>    
+                </div>
+
+                  <div>
+                    <label for="White">
+                        <input type="checkbox" id="White" name="Race" value ="White"> White
+                    </label>
+                    </div>      
+          </fieldset> 
+
+
+     </form>
+        <button onclick="window.location.href='./survey-2.html';">
+            Next page
+          </button>
+    <p>page 1 of 2</p>
+</body>
+</html>
