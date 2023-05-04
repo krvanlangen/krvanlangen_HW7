@@ -1,7 +1,12 @@
-# krvanlangen_HW7
-Digital Product Management Web Form
+#Digital Product Management Web Form :wave:
 
-Description of Project: I made a web form survey using the code we learned inn class. My survey is about user's spring break plans. 
+---
+
+Description of Project: I made a web form survey using the code we learned in class. My survey is about user's spring break plans. :wave:
+
+![University of Iowa badge](https://img.shields.io/static/v1?message=Hawks!!&labelColor=000000&color=FFCD00&label=Go&style=for-the-badge)
+
+---
 
 How my web form conforms to best practices: 
 
